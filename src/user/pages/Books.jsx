@@ -43,7 +43,7 @@ function Books() {
           <div className='md:grid grid-cols-4 mt-5'>
             {/* duplicate according  */}
             <div className='shadow rounded p-3 m-4'>
-              <img width={'100%'} height={'300px'} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBDtIKjKLaNxq0UQ7jbTA1Friqh0pYcmEnoK73krelCg&s=10" alt="Book" />
+              <img width={'100%'} height={'300px'} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXsg2UKSGc1Zg_dnllTISWp_-2yRXvgKTUIY7sUFmvFA&s=10" alt="Book" />
               <div className='flex flex-col justify-center items-center mt-4'>
                 <h2 className='text-blue-700 font-bold text-xl '>Author</h2>
                 <h3 className='text-lg mt-2 '>Title</h3>
