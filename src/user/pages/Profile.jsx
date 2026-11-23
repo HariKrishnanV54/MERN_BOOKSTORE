@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { FaCircleCheck } from 'react-icons/fa6'
 import Edit from '../components/Edit'
+import UploadBooks from '../components/UploadBooks'
 
 function Profile() {
   const [currentTab, setCurrentTab] = useState(1)
@@ -42,7 +43,7 @@ function Profile() {
       {currentTab == 1 &&
         <div>
 
-          Upload Books
+          <UploadBooks />
 
         </div>
       }
