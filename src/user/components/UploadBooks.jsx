@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaPlus } from 'react-icons/fa'
 
 function UploadBooks() {
   return (
@@ -64,7 +65,22 @@ function UploadBooks() {
                 </label>
             </div>
 
+            {/* Preview uploaded book */}
+            <div className='flex justify-center items-center mb-3'>
+               <img width={'70px'} height={'70px'} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXsg2UKSGc1Zg_dnllTISWp_-2yRXvgKTUIY7sUFmvFA&s=10" alt="Book" />
+            <label htmlFor="bookupload">
+                <input type="file" id='bookupload' hidden />
+                <FaPlus className='text-2xl ms-3'/>
+            </label>
+            </div>
+
         </div>
+      </div>
+      {/* reset and books */}
+      <div className='flex md:justify-end mt-10 px-5 justify-center w-full'>
+        <button className='bg-gray-400 text-white px-3 py-2 rounded hover:bg-white hover:text-gray-600'>RESET</button>
+        <button className='bg-blue-400 text-white px-3 py-2 rounded hover:bg-white hover:text-blue-600'>ADD BOOK DETAILS</button>
+
       </div>
     </div>
   )
